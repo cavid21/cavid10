@@ -1,0 +1,297 @@
+/*common classes*/
+.textColorWhite
+{
+	color: white;
+}
+.verticalSpace
+{
+	margin-bottom: 40px; 
+}
+
+/*main styles*/
+#main
+{
+	background: url("../images/header-bg.jpg");
+	background-size: cover;
+}
+#main .mainColor
+{
+	
+}
+#main .mainHeight
+{
+	height: 100%;
+}
+#main .container-fluid
+{
+	padding: 0;
+}
+#main .navbar
+{
+	border-radius: 0;
+}
+#main .navbar-inverse
+{
+	background: transparent; 
+	border: 0;
+}
+#main h4
+{
+	font-style: italic;
+	font-size: 2em;
+}
+#main h1
+{
+	font-size: 2em; 
+	font-weight: 700;
+}
+#main .btn
+{
+	background: #fed136;
+	padding: 20px;
+	border-radius: 0;
+}
+#main .content
+{
+	padding: 270px 0;
+}
+
+
+/*services styles*/
+#services
+{
+	
+}
+#services .mainColor
+{
+	background-color: #FFFFFF;
+}
+#services .mainHeight
+{
+	height: 100%;
+}
+#services h1
+{
+	padding-bottom: 10px; 
+	font-weight: 700;
+}
+#services i
+{
+	background: #fed136;
+	color: white;
+	border-radius: 100%;
+	padding: 40px;
+
+}
+#services h5
+{
+	font-weight: bold;
+	padding: 10px 0;
+}
+#services .content
+{
+	padding: 100px 0;
+}
+
+
+/*portfolio styles*/
+#portfolio
+{
+	 
+}
+#portfolio .mainColor
+{
+	background-color: #EEEEEE;
+}
+#portfolio .mainHeight
+{
+	height: 100%;
+}
+#portfolio .content
+{
+	padding: 100px ;
+}
+#portfolio h1
+{
+	font-weight: 700; 
+}
+#portfolio p
+{
+	font-style: italic; 
+}
+#portfolio .thumbnail
+{
+	padding: 0;
+	border-radius: 0;
+}
+
+
+
+/*about styles*/
+#about
+{
+	height: ;
+}
+#about .mainColor
+{
+	background-color: #FFFFFF;
+}
+#about .mainHeight
+{
+	height: 100%;
+}
+#about .timeline
+{
+	list-style-type: none;
+}
+#about .timeline >li:nth-child(even) 
+{
+    position: relative;
+    margin-bottom: 50px;
+    height: 300px;
+    right:-60%;
+}
+#about .timeline >li:nth-child(odd) 
+{
+    position: relative;
+    margin-bottom: 50px;
+    height: 300px;
+    left:60%;
+}
+#about .timeline-image img
+{
+	border:4px solid #f1f1f1;
+}
+#about .timeline > li .timeline-panel 
+{
+ 	position: relative;
+ 	width: 400px;
+ 	text-align: right;
+ 	top: -200px;
+ 	right: 60%;
+}
+#about .timeline > li.timeline-inverted >.timeline-panel 
+{
+    text-align: left;
+    left: 32%;
+} 
+#about .timeline .line
+{
+	position: relative;
+	left: 100px;
+	top: -159px;
+	width: 4px;
+	height: 150px;
+	background-color: #F1F1F1;
+}
+#about .timeline-end
+{
+	position: relative; 
+	border-radius: 100%;
+	left: 0%;
+	border:4px solid #f1f1f1;
+	background: orange;
+	width: 210px;
+    height: 210px
+}
+#about .timeline-end h4
+{
+	position: relative;
+	top: 30%;
+	left: 35%;
+	color: white;
+	font-weight: 700; 
+}
+
+/*team styles*/
+#team
+{
+	height: ;
+}
+#team .mainColor
+{
+	background: #EEEEEE;
+	padding-left: 130px; 
+}
+#team .mainHeight
+{
+	height: 100%;
+}
+#team .end p
+{
+	font-weight: 700;
+	padding-left: 100px;
+}
+#team i
+{
+	margin-left: 20px; 
+	font-size: 25px; 
+	color: white;
+	width: 40px;
+	height: 40px;
+	padding: 10px 0 0 10px;
+	background-color: #222222;
+	border-radius: 100%;
+}
+#team .team-member h4 , p 
+{
+	padding-left: 50px;
+}
+#team .end p
+{
+	padding: 40px 0 0 150px; 
+}
+
+
+
+/*contact styles*/
+#contact
+{	
+	color: white;
+	font-size: 20px; 
+}
+#contact .mainColor
+{
+	background-color: #2b2b2b;
+}
+#contact .mainHeight
+{
+	height: 100%;
+}
+#contact input
+{
+	margin-right: -200px;
+	width: 400px;
+	height: 60px;
+	border-radius: 5px;
+}
+#contact textarea 
+{
+	margin-left: -200px;
+	width: 400px;
+	height: 235px;
+	border-radius: 5px;
+}
+
+footer
+{
+	height: 100px;
+}
+footer i
+{
+	color: white;
+	width: 40px;
+	height: 40px;
+	background-color: #222222;
+	margin-left: 20px; 
+	border-radius: 100%;
+	padding: 15px 0 0 15px;
+}
+footer > div > div
+{
+	padding-top: 50px;
+} 
+footer a
+{
+	color: orange;
+}
